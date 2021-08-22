@@ -2,7 +2,7 @@ from tkinter import *
 from PIL import ImageTk, Image
 
 root = Tk()
-root.title("Images & Icons")
+root.title("Image Viewer V2")
 root.iconbitmap("./python.ico")
 
 
