@@ -5,8 +5,8 @@ root = Tk()
 root.title("Images & Icons")
 root.iconbitmap("./python.ico")
 
-my_img = ImageTk.PhotoImage(Image.open('./Images/zen.jpg'))
-myLabel = Label(image=my_img)
+my_img = ImageTk.PhotoImage(Image.open('./Images/1.jpg'))
+myLabel = Label(root, image=my_img)
 myLabel.pack()
 
 button_quit = Button(root, text="Exit Program", command=root.quit)
